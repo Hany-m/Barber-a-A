@@ -1,46 +1,150 @@
-.titulo-principal {
-    padding-left: 30px;
+header {
+    background-color: #888888;
+    padding: 20px 0;
 }
 
-.titulocentrado {
-    text-align: center;
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-p {
-    text-align: center;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-em strong {
-    color: red;
+nav li {
+display: inline;
+margin: 0 0 0 15px;
 }
 
-#mision {
-    font-size: 20px;
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-#banner {
-    width: 100%;
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
 }
 
-.principal {
-    background-color: #cccccc;
-    padding: 20px;
-}
-.items{
-    font-style: italic;
-}
-
-.diferenciales {
-    background: #ffffff;
-    padding: 30px;
+.servicios {
+    width: 940px;
+    margin: 0 auto;
+    
+    padding: 50px;
 }
 
-ul {
+.servicios li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
 }
-.imagenDiferenciales {
+
+.servicios li:hover {
+    border-color: #c78c19;
+}
+
+.servicios li:active {
+    border-color: #088c19;
+}
+
+.servicios h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servicios li :hover h2 {
+    font-size: 35px;
+}
+.servicio-descripcion {
+    font-size: 18px;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(servicios/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-contacto {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid gray;
+    padding: 8px 15px;
 }
